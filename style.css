@@ -1,0 +1,114 @@
+h2{
+    font-family: Algerian;
+   
+}
+p{
+  font-family: Arial Narrow;
+  font-size: 17px;
+}
+#navlinks{
+    font-family: Arial Narrow;
+    font-size: 25px;
+}
+#topgrey, #bottomgrey{
+  background-color:#b3b0b0;
+}
+#picgutter{
+  background-color: #71df3e;
+}
+#pB{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#pB2{
+    margin-left: 10px;
+}
+.welcome, .favorite{
+     margin-top: 20px;
+    margin-bottom: 20px;
+}
+#columns{
+    background-color: #61cc57;
+}
+#columnLeft{
+    background-color: #71df3e;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#columnRight{
+    background-color: #71df3e;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+body{
+    font-family: sans-serif;
+}
+/*#73da6a*/
+#bottomPart{
+    background-color: #61cc57;
+}
+#navbar{
+    background-color: #61cc57;
+}
+#menus{
+    position:relative;
+    margin-left:5px;
+    margin-right: 5px;
+    /*margin-bottom: 5px;*/
+    height: 50px;
+    background-color: #71df3e;
+    float:bottom;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #61cc57;
+}
+
+.topnav h1 {
+  float: left;
+  color: #131212;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family:Algerian
+}
+
+.topnav-centered h1 {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+  width:100%; 
+  height:auto; 
+  max-width: 100px;
+  
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav h1, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
