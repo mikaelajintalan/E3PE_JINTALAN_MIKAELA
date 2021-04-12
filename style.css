@@ -2,6 +2,12 @@ h2{
     font-family: Algerian;
    
 }
+#menus a{
+  font-size: 30px;
+  color: black;
+  text-decoration:none;
+  padding: 50px;
+}
 p{
   font-family: Arial Narrow;
   font-size: 17px;
@@ -10,12 +16,16 @@ p{
     font-family: Arial Narrow;
     font-size: 25px;
 }
-#topgrey, #bottomgrey{
-  background-color:#b3b0b0;
+#topgreen{
+  background-color: #61cc57;
 }
 #picgutter{
   background-color: #71df3e;
 }
+#topgrey, #bottomgrey{
+  background-color:#b3b0b0;
+}
+
 #pB{
     margin-left: 10px;
     margin-top: 20px;
@@ -24,27 +34,31 @@ p{
     margin-left: 10px;
 }
 .welcome, .favorite{
-     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 #columns{
     background-color: #61cc57;
 }
 #columnLeft{
     background-color: #71df3e;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 85px;
     margin-right: 5px;
     
 }
 #columnRight{
     background-color: #71df3e;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 5px;
-    margin-right: 5px;
-    
+    margin-right: 5px;    
+}
+#peacock, #parrot, #lovebirds, #phoenix{
+  width: 150px;
+  height: 150px;
+  margin-left: 0px;
 }
 
 body{
@@ -53,18 +67,22 @@ body{
 /*#73da6a*/
 #bottomPart{
     background-color: #61cc57;
+    padding-left:80px;
 }
 #navbar{
     background-color: #61cc57;
 }
 #menus{
     position:relative;
-    margin-left:5px;
-    margin-right: 5px;
-    /*margin-bottom: 5px;*/
+    margin-left:50px;
+    margin-right: 10px;
+    margin-bottom: 0px;
     height: 50px;
     background-color: #71df3e;
     float:bottom;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:50px;
 }
 .topnav {
   position: relative;
@@ -95,7 +113,7 @@ body{
   width:100%; 
   height:auto; 
   max-width: 100px;
-  
+  margin-right:80px;
 }
 
 /* Responsive navigation menu (for mobile devices) */
